@@ -8,6 +8,7 @@ public class Program {
 
         for (int i = 1; i <= 7; i++) {
             Car c = new Car(parkingLot, "Car " + i);
+            System.out.println(c.getName());
             c.start();
         }
 

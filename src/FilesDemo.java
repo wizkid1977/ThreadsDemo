@@ -22,6 +22,10 @@ public class FilesDemo {
         }
     }
 
+    /**
+     * This method writes to a file
+     * @throws IOException
+     */
     private static void writeToFile() throws IOException {
         try(FileWriter writer = new FileWriter("example.txt", true)) {
             writer.write("yada yada\n");

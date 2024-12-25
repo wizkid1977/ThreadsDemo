@@ -4,6 +4,7 @@ import java.util.concurrent.Semaphore;
 
 public class Car extends Thread{
     private Semaphore semaphore;
+    private String carName;
 
     public Car(Semaphore semaphore, String name) {
         super(name);
